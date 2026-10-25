@@ -2,7 +2,19 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<..\index-en.html> a prov:Entity;
+<http://www.owl-ontologies.com/onDBTuning.owl/1.0> a prov:Entity;
+	 dc:title "onDBTuning Ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo :agent4;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:specializationOf <http://www.owl-ontologies.com/OntologiaTuning.owl>;
+	 prov:specializationOf <http://www.owl-ontologies.com/onDBTuning.owl#>;
+	 prov:wasGeneratedAt "2026-10-25";
 .
+:agent0 a prov:Agent; foaf:name "Ana Carolina Almeida".
+:agent1 a prov:Agent; foaf:name "Daniel Schwabe".
+:agent2 a prov:Agent; foaf:name "Fernanda Baião".
+:agent3 a prov:Agent; foaf:name "Maria Luiza Machado Campos".
+:agent4 a prov:Agent; foaf:name "Sérgio Lifschitz".
